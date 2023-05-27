@@ -210,7 +210,7 @@ local Tab = Window:NewTab("Sentences")
 local SSection = Tab:NewSection("lowercase")
 
 SSection:NewButton("Ass or Boobs?", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ?", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ оr Вооbs??", "All")
 end)
 
 SSection:NewButton("and you know i like Boobs", "You say this word", function()
