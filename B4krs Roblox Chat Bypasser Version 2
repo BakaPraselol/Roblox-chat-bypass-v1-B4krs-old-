@@ -10,6 +10,12 @@ Section:NewButton("Anti-Ban", "Prevents you from getting banned if the ban were 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/Anti-Chat-Ban-Roblox/main/Roblox%20Anti%20Chat%20Ban"))() 
 end)
 
+ Section:NewButton("this guy can make it so you cant chat sometimes", "???", function()
+ end)
+
+ Section:NewButton("you can buy the copy paste version to fix it", "not a payed promosion", function()
+ end)
+
 local Tab = Window:NewTab("Swears")
 
 local SideSection = Tab:NewSection("Lowecase")
